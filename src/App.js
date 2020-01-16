@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     const { characters } = this.state;
     return (
-      <React.Fragment>
+      <>
         <NavBar />
 
         <div className="container">
@@ -36,7 +36,7 @@ class App extends Component {
           />
           <Form handleSubmit={this.handleSubmit} />
         </div>
-      </React.Fragment>
+      </>
     );
   }
 }
